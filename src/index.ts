@@ -1,3 +1,4 @@
+// TryFlow - SafeExecute
 type Fn<T> = (...args: any[]) => Promise<T> | T;
 type ErrorHandler = (error: unknown, attempt: number) => void;
 type FinallyHandler = () => void;
