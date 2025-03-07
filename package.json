@@ -2,7 +2,13 @@
   "name": "tryflow",
   "version": "0.1.2",
   "description": "Tryflow is a lightweight, production-ready utility for handling try-catch-finally blocks in JavaScript/TypeScript. It helps reduce boilerplate, improve error handling, and provide advanced features such as automatic retries, logging, customizable fallback mechanisms and more...",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
   "scripts": {
     "build": "npx tsc",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
