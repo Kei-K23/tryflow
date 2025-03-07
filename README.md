@@ -116,12 +116,12 @@ We welcome contributions! 🚀
 1. **Fork the Repository**
 2. **Clone Your Fork**
    ```sh
-   git clone https://github.com/Kei-K23/tryflow
+   git clone https://github.com/<YOUR_GITHUB_USERNAME>/tryflow
    cd tryflow
    ```
 3. **Install Dependencies**
    ```sh
-   npm install
+   pnpm install
    ```
 4. **Create a New Branch**
    ```sh
@@ -130,7 +130,7 @@ We welcome contributions! 🚀
 5. **Make Your Changes**
 6. **Run Tests**
    ```sh
-   npm test
+   pnpm run test
    ```
 7. **Commit and Push**
    ```sh
@@ -143,10 +143,10 @@ We welcome contributions! 🚀
 
 ## **📜 License**
 
-This package is licensed under the **MIT License**.
+This package is licensed under the **[MIT License](/LICENSE)**.
 
 ---
 
 ## **📮 Contact & Support**
 
-For issues, feel free to open a [GitHub Issue](https://github.com/yourusername/safe-execute/issues).
+For issues, feel free to open a [GitHub Issue](https://github.com/Kei-K23/tryflow/issues).
