@@ -2,10 +2,11 @@
 
 **tryflow** is a lightweight, production-ready utility for handling try-catch-finally blocks in JavaScript/TypeScript. It helps reduce boilerplate, improve error handling, and provide advanced features such as automatic retries, logging, customizable fallback mechanisms and more...
 
-[![NPM Version](https://img.shields.io/npm/v/safe-execute)](https://www.npmjs.com/package/safe-execute)  
-[![License](https://img.shields.io/npm/l/safe-execute)](LICENSE)  
-[![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/safe-execute/ci.yml)](https://github.com/yourusername/safe-execute/actions)  
-[![Coverage](https://img.shields.io/codecov/c/github/yourusername/safe-execute)](https://codecov.io/gh/yourusername/safe-execute)
+[![NPM Version](https://img.shields.io/npm/v/tryflow)](https://www.npmjs.com/package/tryflow)  
+[![License](https://img.shields.io/npm/l/tryflow)](LICENSE)
+
+<!-- [![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/safe-execute/ci.yml)](https://github.com/yourusername/safe-execute/actions)
+[![Coverage](https://img.shields.io/codecov/c/github/yourusername/safe-execute)](https://codecov.io/gh/yourusername/safe-execute) -->
 
 ---
 
