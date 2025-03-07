@@ -1,4 +1,3 @@
-// Callback function type
 type Fn<T> = (...args: any[]) => Promise<T> | T;
 type ErrorHandler = (error: unknown, attempt: number) => void;
 type FinallyHandler = () => void;
@@ -36,7 +35,7 @@ export function safeExecute<T>(fn: Fn<T>, options: SafeExecuteOptions<T> = {}) {
         const result = await fn(...args);
         logger?.(
           `Function executed successfully on attempt ${attempt} `,
-          result
+          result,
         );
 
         // Return executed result and null for no error
@@ -49,7 +48,7 @@ export function safeExecute<T>(fn: Fn<T>, options: SafeExecuteOptions<T> = {}) {
         // Attempt is exceed to retries count, then call fallback function when user provide fallback function
         if (attempt > retries) {
           if (fallback) {
-            logger?.("Executing fallback function due to failure");
+            logger?.('Executing fallback function due to failure');
             try {
               const fallbackResult = await fallback(...args);
               return [fallbackResult, null];

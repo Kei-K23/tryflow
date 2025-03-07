@@ -1,3 +1,3 @@
-import { safeExecute } from "@/lib/safe-execute";
+import { safeExecute } from '@/lib/safe-execute';
 
 export { safeExecute };
