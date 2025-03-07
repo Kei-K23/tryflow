@@ -1,6 +1,6 @@
 {
   "name": "tryflow",
-  "version": "0.2.0",
+  "version": "0.1.1",
   "description": "Tryflow is a lightweight, production-ready utility for handling try-catch-finally blocks in JavaScript/TypeScript. It helps reduce boilerplate, improve error handling, and provide advanced features such as automatic retries, logging, customizable fallback mechanisms and more...",
   "main": "index.js",
   "scripts": {
