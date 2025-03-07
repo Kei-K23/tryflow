@@ -1,6 +1,6 @@
 # **tryflow**
 
-_A production-ready utility for handling try-catch blocks with retries, logging, and fallback mechanisms in JavaScript/TypeScript._
+**tryflow** is a lightweight, production-ready utility for handling try-catch-finally blocks in JavaScript/TypeScript. It helps reduce boilerplate, improve error handling, and provide advanced features such as automatic retries, logging, customizable fallback mechanisms and more...
 
 [![NPM Version](https://img.shields.io/npm/v/safe-execute)](https://www.npmjs.com/package/safe-execute)  
 [![License](https://img.shields.io/npm/l/safe-execute)](LICENSE)  
@@ -116,7 +116,7 @@ We welcome contributions! 🚀
 1. **Fork the Repository**
 2. **Clone Your Fork**
    ```sh
-   git clone https://github.com/yourusername/tryflow.git
+   git clone https://github.com/Kei-K23/tryflow
    cd tryflow
    ```
 3. **Install Dependencies**
